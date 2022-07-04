@@ -87,3 +87,43 @@ body {
   font-weight: bold; 
   background-color: #3882F6;
 }
+
+
+/*******************************
+          Information
+********************************/
+.information {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 48px;
+}
+
+.info-header {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.info-images {
+  display: flex;
+  gap: 32px;
+}
+
+.info-image img {
+  border: solid 3px #3882F6;
+  min-width: 153px;
+  min-height: 153px;
+  border-radius: 10%;
+}
+
+.image-sub {
+  text-align: center;
+  width: 170px;
+}
+
+
+
