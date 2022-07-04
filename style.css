@@ -49,6 +49,7 @@ body {
 .hero-content {
   margin: 90px 0;
   display: flex;
+  gap: 60px;
 }
 
 .hero-container {
