@@ -46,5 +46,43 @@ body {
           Hero Content
 ********************************/
 
+.hero-content {
+  margin: 90px 0;
+  display: flex;
+}
 
+.hero-container {
+  flex-grow: 1;
+  flex-basis: 50%;
+}
 
+.hero-main {
+  font-size: 48px;
+  font-weight: bolder;
+  width: 325px;
+}
+
+.hero-sub {
+  width: 450px;
+  color: #E5E7EB;
+  font-size: 18px; 
+  /* ew */
+  margin-bottom: 16px; 
+}
+
+/* image and button*/
+.hero-content img {
+  flex-grow: 1;
+  background: grey;
+  flex-basis: 50%;
+}
+
+.hero-sign {
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 8px;
+  color: #E5E7EB;
+  font-size: 18px;
+  font-weight: bold; 
+  background-color: #3882F6;
+}
