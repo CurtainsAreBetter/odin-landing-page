@@ -185,3 +185,21 @@ body {
   border: white solid 1px;
   padding: 5px 32px;
 }
+
+
+
+/*******************************
+             Footer
+********************************/
+
+.footer {
+  background-color: #1f2937;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  color: #E5E7EB;
+}
